@@ -1,0 +1,11 @@
+.\game.o: game.c
+.\game.o: C:\Keil\ARM\ARMCC\bin\..\include\stdio.h
+.\game.o: C:\Keil\ARM\ARMCC\bin\..\include\stdint.h
+.\game.o: ST7735.h
+.\game.o: PLLFunction.h
+.\game.o: tm4c123gh6pm.h
+.\game.o: TimerFunctions.h
+.\game.o: PortInitFunctions.h
+.\game.o: SysTickFunction.h
+.\game.o: SoundFunctions.h
+.\game.o: ADCFunctions.h

@@ -1,0 +1,34 @@
+Dependencies for Project 'Handheld Game', Target 'Target 1': (DO NOT MODIFY !)
+F (.\startup_TM4C123.s)(0x62EDDB5A)(--cpu Cortex-M4 --pd "__EVAL SETA 1" -g --apcs=interwork --pd "__MICROLIB SETA 1"-I C:\Keil\ARM\RV31\INC-I C:\Keil\ARM\CMSIS\Include-I C:\Keil\ARM\Inc\TI\TM4C123--list .\startup_tm4c123.lst --xref -o .\startup_tm4c123.o --depend .\startup_tm4c123.d)
+F (.\game.c)(0x63012F03)(--c99 -c --cpu Cortex-M4 -D__EVAL -D__MICROLIB -g -O0 --apcs=interwork --split_sections-I C:\Keil\ARM\RV31\INC-I C:\Keil\ARM\CMSIS\Include-I C:\Keil\ARM\Inc\TI\TM4C123-DTM4C123GH6PM-o .\game.o --omf_browse .\game.crf --depend .\game.d)
+I (C:\Keil\ARM\ARMCC\include\stdio.h)(0x51C86004)
+I (C:\Keil\ARM\ARMCC\include\stdint.h)(0x51C86004)
+I (ST7735.h)(0x62EDDFF5)
+I (PLLFunction.h)(0x62EDE60D)
+I (tm4c123gh6pm.h)(0x62EDE049)
+I (TimerFunctions.h)(0x62EE136A)
+I (PortInitFunctions.h)(0x62EE139E)
+I (SysTickFunction.h)(0x62EE1392)
+I (SoundFunctions.h)(0x62EE1244)
+I (ADCFunctions.h)(0x62EE1387)
+F (.\ST7735.c)(0x62EDE049)(--c99 -c --cpu Cortex-M4 -D__EVAL -D__MICROLIB -g -O0 --apcs=interwork --split_sections-I C:\Keil\ARM\RV31\INC-I C:\Keil\ARM\CMSIS\Include-I C:\Keil\ARM\Inc\TI\TM4C123-DTM4C123GH6PM-o .\st7735.o --omf_browse .\st7735.crf --depend .\st7735.d)
+I (C:\Keil\ARM\ARMCC\include\stdio.h)(0x51C86004)
+I (C:\Keil\ARM\ARMCC\include\stdint.h)(0x51C86004)
+I (ST7735.h)(0x62EDDFF5)
+I (tm4c123gh6pm.h)(0x62EDE049)
+F (.\Timers.c)(0x62EDE196)(--c99 -c --cpu Cortex-M4 -D__EVAL -D__MICROLIB -g -O0 --apcs=interwork --split_sections-I C:\Keil\ARM\RV31\INC-I C:\Keil\ARM\CMSIS\Include-I C:\Keil\ARM\Inc\TI\TM4C123-DTM4C123GH6PM-o .\timers.o --omf_browse .\timers.crf --depend .\timers.d)
+I (tm4c123gh6pm.h)(0x62EDE049)
+F (.\SysTick.c)(0x62EE136A)(--c99 -c --cpu Cortex-M4 -D__EVAL -D__MICROLIB -g -O0 --apcs=interwork --split_sections-I C:\Keil\ARM\RV31\INC-I C:\Keil\ARM\CMSIS\Include-I C:\Keil\ARM\Inc\TI\TM4C123-DTM4C123GH6PM-o .\systick.o --omf_browse .\systick.crf --depend .\systick.d)
+I (tm4c123gh6pm.h)(0x62EDE049)
+I (ADCFunctions.h)(0x62EE1387)
+F (.\ADC.c)(0x62EDE314)(--c99 -c --cpu Cortex-M4 -D__EVAL -D__MICROLIB -g -O0 --apcs=interwork --split_sections-I C:\Keil\ARM\RV31\INC-I C:\Keil\ARM\CMSIS\Include-I C:\Keil\ARM\Inc\TI\TM4C123-DTM4C123GH6PM-o .\adc.o --omf_browse .\adc.crf --depend .\adc.d)
+I (tm4c123gh6pm.h)(0x62EDE049)
+F (.\Sound.c)(0x62EE12F1)(--c99 -c --cpu Cortex-M4 -D__EVAL -D__MICROLIB -g -O0 --apcs=interwork --split_sections-I C:\Keil\ARM\RV31\INC-I C:\Keil\ARM\CMSIS\Include-I C:\Keil\ARM\Inc\TI\TM4C123-DTM4C123GH6PM-o .\sound.o --omf_browse .\sound.crf --depend .\sound.d)
+I (tm4c123gh6pm.h)(0x62EDE049)
+I (TimerFunctions.h)(0x62EE136A)
+F (.\ButtonsLEDs.c)(0x62EE136A)(--c99 -c --cpu Cortex-M4 -D__EVAL -D__MICROLIB -g -O0 --apcs=interwork --split_sections-I C:\Keil\ARM\RV31\INC-I C:\Keil\ARM\CMSIS\Include-I C:\Keil\ARM\Inc\TI\TM4C123-DTM4C123GH6PM-o .\buttonsleds.o --omf_browse .\buttonsleds.crf --depend .\buttonsleds.d)
+I (tm4c123gh6pm.h)(0x62EDE049)
+F (.\PLL.c)(0x62EE12F1)(--c99 -c --cpu Cortex-M4 -D__EVAL -D__MICROLIB -g -O0 --apcs=interwork --split_sections-I C:\Keil\ARM\RV31\INC-I C:\Keil\ARM\CMSIS\Include-I C:\Keil\ARM\Inc\TI\TM4C123-DTM4C123GH6PM-o .\pll.o --omf_browse .\pll.crf --depend .\pll.d)
+I (PLLFunction.h)(0x62EDE60D)
+I (C:\Keil\ARM\ARMCC\include\stdint.h)(0x51C86004)
+I (tm4c123gh6pm.h)(0x62EDE049)
