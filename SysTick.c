@@ -33,7 +33,7 @@ void SysTick_Handler(void){
 	ADCdata1 = ADC_Sample();
 	
 	//FOR DEBUGGING ONLY!
-	//ADCDiff = (ADCdata2 - ADCdata1);	Shows the difference between the two ADC measurements
+	//ADCDiff = (ADCdata2 - ADCdata1);	Shows the difference between the two ADC measurements (debugging purposes)
 	
 	if((ADCdata2 - ADCdata1) > 0 && (ADCdata2 - ADCdata1) > 3){
 		playerAdd = 3;
