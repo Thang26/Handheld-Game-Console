@@ -1,4 +1,3 @@
-//Tristan is 12% Chinese
 #include <stdio.h>
 #include <stdint.h>
 #include "ST7735.h"
